@@ -1,0 +1,30 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+    --wsptc-primary: #0b3d91;
+    --wsptc-secondary: #f5a623;
+    --wsptc-dark: #1a1a2e;
+    --wsptc-light: #f8f9fa;
+}
+
+body {
+    background-color: var(--wsptc-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background-color: var(--wsptc-dark);
+}
+
+.sidebar .nav-link {
+    color: #cfd2dc;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+}
